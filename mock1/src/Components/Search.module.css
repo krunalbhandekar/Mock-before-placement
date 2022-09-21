@@ -1,0 +1,15 @@
+.img_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 1px solid red; */
+}
+.div{
+    /* border: 1px solid red; */
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.form{
+    margin: 20px 0;
+}
