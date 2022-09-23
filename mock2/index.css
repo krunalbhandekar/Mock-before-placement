@@ -1,0 +1,45 @@
+#alldata{
+    width: 70%;
+    margin: auto;
+/* border: 1px solid red; */
+display: grid;
+grid-template-columns: repeat(1,fr);
+gap: 50px;
+}
+.main{
+border: 1px solid red;
+display: flex;
+padding: 0 20px;
+justify-content: space-between
+}
+.main2{
+    display: flex;
+    gap: 50px;
+}
+.imgdiv{
+/* border: 1px solid red; */
+display: flex;
+align-items: center;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.posted {
+    display: flex;
+/* border: 1px solid red; */
+gap: 20px;
+}
+.role{
+    display: flex;
+        /* border: 1px solid red; */
+        gap: 20px;
+        align-items: center;
+}
+#pagediv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
