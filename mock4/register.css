@@ -1,0 +1,26 @@
+nav {
+    /* border: 1px solid red; */
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+}
+.container{
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form{
+    /* border: 1px solid red; */
+   width: 50%;
+   margin: auto;
+
+}

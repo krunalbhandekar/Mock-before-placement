@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="./employee.html">Employee</a>
+        <a href="./login.html">Login</a>
+        <a href="./register.html">Register</a>
+    </nav>
+    <div class="container">
+        <h1 class="create">Create Account</h1>
+        <form class="form" id="form1">
+            <div class="form-input-group">
+                <input id="name" type="text" required class="form__input" autofocus placeholder="Enter Name" />
+                <div class="form__input-error-message"></div>
+                <div class="form-input-group">
+                    <input id="username" type="text" required class="form__input" autofocus placeholder=" Enter User Name" />
+
+                </div>
+                <div class="form-input-group">
+                    <input id="email" type="text" required class="form__input" autofocus
+                        placeholder="Enter Your Email" />
+
+                </div>
+                <div class="form-input-group">
+                    <input id="password" type="text" required class="form__input" autofocus placeholder="Enter Password" />
+
+                </div>
+                <div class="form-input-group">
+                    <input id="mobile" type="text" required class="form__input" autofocus placeholder="Mobile No." />
+                </div>
+
+                <div class="form-input-group">
+                    <input id="description" type="text" required class="form__input" autofocus
+                        placeholder="Description" />
+
+                </div>
+                <button class="form__button" id="submit" type="submit">Continue</button>
+                <p class="form__text">
+                    <a class="form__link" href="./login.html">Already have an account? Login in</a>
+                </p>
+        </form>
+    </div>
+</body>
+<script src="./register.js"></script>
+</html>

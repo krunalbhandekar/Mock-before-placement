@@ -1,0 +1,10 @@
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+}

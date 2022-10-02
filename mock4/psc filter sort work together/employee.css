@@ -1,0 +1,38 @@
+body {
+  background-color: #eef9f9;
+  color: #25316d;
+  font-weight: bold;
+}
+
+#functionality-container {
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#functionality-container * {
+  margin-left: 2rem;
+}
+
+#employee-container {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+#pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+#pagination-container * {
+  margin-right: 1rem;
+}
+
+.dp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

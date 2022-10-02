@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
+      integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./employee.css" />
+  </head>
+  <body>
+    <!-- Filter ,Sort and Search -->
+    <div id="functionality-container">
+      <!-- Filter Functionality -->
+      <div id="filter-func">
+        <label for="filter-department">Filter by department:</label>
+        <select name="department" id="filter-department">
+          <option value="none">None</option>
+          <option value="Training">Training</option>
+          <option value="Services">Services</option>
+          <option value="Business Development">Business Development</option>
+          <option value="Product Management">Product Management</option>
+          <option value="Engineering">Engineering</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Research and Development">
+            Research and Development
+          </option>
+          <option value="Human Resources">Human Resources</option>
+          <option value="Support">Support</option>
+          <option value="Legal">Legal</option>
+          <option value="Sales">Sales</option>
+        </select>
+      </div>
+
+      <!-- Sort Functionality -->
+      <div class="sort">
+        <label for="filter-sort">Sort by Salary:</label>
+        <select name="sort" id="filter-sort">
+          <option value="none">None</option>
+          <option value="lth">Low to High</option>
+          <option value="htl">High to Low</option>
+        </select>
+      </div>
+
+      <!-- Search for Employee -->
+      <div class="search">
+        <label for="search-employee">Search :</label>
+        <input
+          type="text"
+          name="search-employee"
+          id="search-employee"
+          placeholder="Search for employee"
+        />
+      </div>
+    </div>
+
+    <!-- Employee Container -->
+    <div id="employee-container">
+      <table>
+        <thead>
+          <th>
+            <!-- <td>Profile</td> -->
+            <td>Name</td>
+            <td>Department</td>
+            <td>Gender</td>
+            <td>Salary</td>
+          </th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <!-- Pagination Container -->
+    <div id="pagination-container"></div>
+  </body>
+</html>
+<script src="./employee.js"></script>
